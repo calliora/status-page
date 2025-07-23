@@ -1,0 +1,82 @@
+[
+  {
+    "name": "calliora Compass",
+    "url": "$COMPASS_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "calliora-compass",
+    "status": "up",
+    "uptime": "25.03%",
+    "uptimeDay": "25.03%",
+    "uptimeWeek": "25.03%",
+    "uptimeMonth": "25.03%",
+    "uptimeYear": "25.03%",
+    "time": 268,
+    "timeDay": 268,
+    "timeWeek": 268,
+    "timeMonth": 268,
+    "timeYear": 268,
+    "dailyMinutesDown": {
+      "2025-07-23": 37
+    }
+  },
+  {
+    "name": "calliora Compass API",
+    "url": "$COMPASS_API/health",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "calliora-compass-api",
+    "status": "up",
+    "uptime": "5.43%",
+    "uptimeDay": "5.43%",
+    "uptimeWeek": "5.43%",
+    "uptimeMonth": "5.43%",
+    "uptimeYear": "5.43%",
+    "time": 627,
+    "timeDay": 627,
+    "timeWeek": 627,
+    "timeMonth": 627,
+    "timeYear": 627,
+    "dailyMinutesDown": {
+      "2025-07-23": 37
+    }
+  },
+  {
+    "name": "calliora Compass Staging",
+    "url": "$COMPASS_STAGING_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "calliora-compass-staging",
+    "status": "up",
+    "uptime": "5.32%",
+    "uptimeDay": "5.32%",
+    "uptimeWeek": "5.32%",
+    "uptimeMonth": "5.32%",
+    "uptimeYear": "5.32%",
+    "time": 249,
+    "timeDay": 249,
+    "timeWeek": 249,
+    "timeMonth": 249,
+    "timeYear": 249,
+    "dailyMinutesDown": {
+      "2025-07-23": 37
+    }
+  },
+  {
+    "name": "calliora Compass Staging API",
+    "url": "$COMPASS_STAGING_API/health",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "calliora-compass-staging-api",
+    "status": "up",
+    "uptime": "5.26%",
+    "uptimeDay": "5.26%",
+    "uptimeWeek": "5.26%",
+    "uptimeMonth": "5.26%",
+    "uptimeYear": "5.26%",
+    "time": 588,
+    "timeDay": 588,
+    "timeWeek": 588,
+    "timeMonth": 588,
+    "timeYear": 588,
+    "dailyMinutesDown": {
+      "2025-07-23": 37
+    }
+  }
+]

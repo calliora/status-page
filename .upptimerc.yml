@@ -1,0 +1,43 @@
+# Change this to your GitHub organization name or username
+owner: calliora
+# Change this to your repository name
+repo: status-page
+
+sites: # List of endpoints to track
+  - name: calliora Compass
+    url: $COMPASS_URL
+    maxResponseTime: 5000
+  - name: calliora Compass API
+    url: $COMPASS_API/health
+    maxResponseTime: 5000
+  - name: calliora Compass Staging
+    url: $COMPASS_STAGING_URL
+    maxResponseTime: 5000
+  - name: calliora Compass Staging API
+    url: $COMPASS_STAGING_API/health
+    maxResponseTime: 5000
+
+# Configuration for the generated status page website
+status-website:
+  # If you want to use a custom domain like status.calliora.com
+  cname: status.calliora.com
+  logoUrl: https://status.calliora.com/calliora.svg
+  name: Calliora Compass Status
+  introTitle: "Calliora Service Status"
+  introMessage: "Welcome to our status page. Here you'll find real-time updates on our services. If you are experiencing an issue, please check here first."
+  theme: night
+  navbar:
+    - title: Status
+      href: /
+    - title: Compass
+      href: https://compass.calliora.com
+    - title: Website
+      href: https://www.calliora.com
+    - title: Contact Support
+      href: mailto:support@calliora.com
+# Assignees for incident tickets
+assignees:
+  - jowi-calliora
+  - tige-calliora
+  - frtr-calliora
+# ... (the rest of the file can often be left as-is)
