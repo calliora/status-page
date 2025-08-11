@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 217,
-    "timeDay": 257,
-    "timeWeek": 180,
-    "timeMonth": 217,
-    "timeYear": 217,
+    "time": 215,
+    "timeDay": 182,
+    "timeWeek": 178,
+    "timeMonth": 215,
+    "timeYear": 215,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 594,
-    "timeDay": 766,
-    "timeWeek": 602,
-    "timeMonth": 594,
-    "timeYear": 594,
+    "time": 586,
+    "timeDay": 433,
+    "timeWeek": 586,
+    "timeMonth": 586,
+    "timeYear": 586,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 217,
-    "timeDay": 216,
-    "timeWeek": 184,
-    "timeMonth": 217,
-    "timeYear": 217,
+    "time": 214,
+    "timeDay": 151,
+    "timeWeek": 180,
+    "timeMonth": 214,
+    "timeYear": 214,
     "dailyMinutesDown": {}
   },
   {
@@ -59,18 +59,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "calliora-compass-staging-api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 586,
-    "timeDay": 599,
-    "timeWeek": 562,
-    "timeMonth": 586,
-    "timeYear": 586,
+    "uptime": "98.49%",
+    "uptimeDay": "72.09%",
+    "uptimeWeek": "96.01%",
+    "uptimeMonth": "98.49%",
+    "uptimeYear": "98.49%",
+    "time": 582,
+    "timeDay": 488,
+    "timeWeek": 558,
+    "timeMonth": 582,
+    "timeYear": 582,
     "dailyMinutesDown": {
-      "2025-08-10": 0
+      "2025-08-11": 9,
+      "2025-08-10": 393
     }
   }
 ]
