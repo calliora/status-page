@@ -1,7 +1,7 @@
 url: $COMPASS_STAGING_API/health
-status: up
-code: 200
-responseTime: 576
-lastUpdated: 2025-08-15T23:00:52.135Z
+status: down
+code: 503
+responseTime: 787
+lastUpdated: 2025-08-16T15:19:22.964Z
 startTime: 2025-07-23T12:06:25.639Z
 generator: Upptime <https://github.com/upptime/upptime>
