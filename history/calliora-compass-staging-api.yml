@@ -1,7 +1,7 @@
 url: $COMPASS_STAGING_API/health
 status: down
 code: 503
-responseTime: 536
-lastUpdated: 2025-08-16T23:00:46.756Z
+responseTime: 725
+lastUpdated: 2025-08-17T23:00:46.888Z
 startTime: 2025-07-23T12:06:25.639Z
 generator: Upptime <https://github.com/upptime/upptime>
