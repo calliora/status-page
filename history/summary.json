@@ -22,18 +22,19 @@
     "url": "$COMPASS_API/health",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "calliora-compass-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "98.05%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.72%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.94%",
-    "time": 581,
-    "timeDay": 523,
-    "timeWeek": 570,
-    "timeMonth": 583,
-    "timeYear": 581,
+    "time": 583,
+    "timeDay": 571,
+    "timeWeek": 578,
+    "timeMonth": 585,
+    "timeYear": 583,
     "dailyMinutesDown": {
+      "2025-08-25": 0,
       "2025-08-24": 28
     }
   }
