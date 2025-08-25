@@ -10,12 +10,6 @@ sites: # List of endpoints to track
   - name: calliora Compass API
     url: $COMPASS_API/health
     maxResponseTime: 5000
-  - name: calliora Compass Staging
-    url: $COMPASS_STAGING_URL
-    maxResponseTime: 5000
-  - name: calliora Compass Staging API
-    url: $COMPASS_STAGING_API/health
-    maxResponseTime: 5000
 
 # Configuration for the generated status page website
 status-website:
