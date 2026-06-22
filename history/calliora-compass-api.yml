@@ -1,7 +1,7 @@
 url: $COMPASS_API/health
 status: up
 code: 200
-responseTime: 586
-lastUpdated: 2026-06-20T23:56:06.793Z
+responseTime: 707
+lastUpdated: 2026-06-22T00:00:31.444Z
 startTime: 2025-07-23T12:06:24.115Z
 generator: Upptime <https://github.com/upptime/upptime>
