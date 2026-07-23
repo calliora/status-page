@@ -4,17 +4,17 @@
     "url": "$COMPASS_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "calliora-compass",
-    "status": "up",
+    "status": "down",
     "uptime": "99.40%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.68%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.67%",
     "uptimeMonth": "99.87%",
     "uptimeYear": "99.40%",
-    "time": 278,
-    "timeDay": 709,
-    "timeWeek": 524,
-    "timeMonth": 567,
-    "timeYear": 278,
+    "time": 277,
+    "timeDay": 426,
+    "timeWeek": 482,
+    "timeMonth": 555,
+    "timeYear": 277,
     "dailyMinutesDown": {
       "2025-11-06": 61,
       "2026-05-08": 491,
@@ -24,7 +24,8 @@
       "2026-06-13": 77,
       "2026-07-06": 15,
       "2026-07-05": 9,
-      "2026-07-18": 33
+      "2026-07-18": 33,
+      "2026-07-23": 0
     }
   },
   {
@@ -32,17 +33,17 @@
     "url": "$COMPASS_API/health",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "calliora-compass-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.38%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.68%",
     "uptimeMonth": "99.87%",
     "uptimeYear": "99.38%",
-    "time": 610,
-    "timeDay": 748,
-    "timeWeek": 570,
-    "timeMonth": 620,
-    "timeYear": 610,
+    "time": 609,
+    "timeDay": 484,
+    "timeWeek": 531,
+    "timeMonth": 609,
+    "timeYear": 609,
     "dailyMinutesDown": {
       "2025-08-24": 28,
       "2025-11-06": 65,
@@ -54,7 +55,8 @@
       "2026-06-13": 77,
       "2026-07-06": 15,
       "2026-07-05": 9,
-      "2026-07-18": 32
+      "2026-07-18": 32,
+      "2026-07-23": 0
     }
   }
 ]
