@@ -3,12 +3,21 @@ owner: calliora
 # Change this to your repository name
 repo: status-page
 
+secrets:
+  - COMPASS_API
+  - COMPASS_URL
+  - GLOBALPING_TOKEN
+
 sites: # List of endpoints to track
   - name: calliora Compass
     url: $COMPASS_URL
+    type: globalping
+    location: Germany+datacenter-network
     maxResponseTime: 5000
   - name: calliora Compass API
     url: $COMPASS_API/health
+    type: globalping
+    location: Germany+datacenter-network
     maxResponseTime: 5000
 
 # Configuration for the generated status page website
