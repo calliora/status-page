@@ -13,6 +13,14 @@
 /.github/workflows/     @calliora/development
 /.github/actions/       @calliora/development
 
+# Upptime generates the workflow files above from this configuration.
+# A push to `.upptimerc.yml` triggers `Setup CI`, which runs
+# `update-template` and rewrites `.github/workflows/**` using a GitHub
+# App token that bypasses the branch ruleset. It also defines the
+# `SECRETS_CONTEXT` allowlist passed to the monitor. Owning the
+# generated files but not their input would leave that path open.
+/.upptimerc.yml         @calliora/development
+
 # The policy file itself. Without this, a CODEOWNERS-only PR could strip
 # the rules above without owner review, leaving every privileged path
 # unowned for any later PR. `.github/CODEOWNERS` outranks root and
