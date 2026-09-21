@@ -1,0 +1,14 @@
+# Code owners.
+#
+# Scoped to CI/CD definitions, which hold credentials and federate into
+# Azure. Application code is intentionally not owned so routine changes
+# are unaffected.
+#
+# Directory patterns are used deliberately: a file-level pattern would
+# leave newly added files in the same directory unowned.
+#
+# CODEOWNERS only auto-requests reviewers. Merge enforcement comes from
+# `require_code_owner_review: true` in a ruleset.
+
+/.github/workflows/     @calliora/development
+/.github/actions/       @calliora/development
