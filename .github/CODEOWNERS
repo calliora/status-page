@@ -12,3 +12,9 @@
 
 /.github/workflows/     @calliora/development
 /.github/actions/       @calliora/development
+
+# The policy file itself. Without this, a CODEOWNERS-only PR could strip
+# the rules above without owner review, leaving every privileged path
+# unowned for any later PR. `.github/CODEOWNERS` outranks root and
+# `docs/`, so protecting this single path is sufficient.
+/.github/CODEOWNERS     @calliora/development
