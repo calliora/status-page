@@ -1,0 +1,28 @@
+# Code owners.
+#
+# Scoped to CI/CD definitions, which hold credentials and federate into
+# Azure. Application code is intentionally not owned so routine changes
+# are unaffected.
+#
+# Directory patterns are used deliberately: a file-level pattern would
+# leave newly added files in the same directory unowned.
+#
+# CODEOWNERS only auto-requests reviewers. Merge enforcement comes from
+# `require_code_owner_review: true` in a ruleset.
+
+/.github/workflows/     @calliora/development
+/.github/actions/       @calliora/development
+
+# Upptime generates the workflow files above from this configuration.
+# A push to `.upptimerc.yml` triggers `Setup CI`, which runs
+# `update-template` and rewrites `.github/workflows/**` using a GitHub
+# App token that bypasses the branch ruleset. It also defines the
+# `SECRETS_CONTEXT` allowlist passed to the monitor. Owning the
+# generated files but not their input would leave that path open.
+/.upptimerc.yml         @calliora/development
+
+# The policy file itself. Without this, a CODEOWNERS-only PR could strip
+# the rules above without owner review, leaving every privileged path
+# unowned for any later PR. `.github/CODEOWNERS` outranks root and
+# `docs/`, so protecting this single path is sufficient.
+/.github/CODEOWNERS     @calliora/development
