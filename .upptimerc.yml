@@ -35,6 +35,8 @@ status-website:
   # If you want to use a custom domain like status.calliora.com
   cname: status.calliora.com
   logoUrl: https://status.calliora.com/calliora.svg
+  faviconSvg: https://status.calliora.com/favicon.svg
+  favicon: https://status.calliora.com/favicon.png
   name: Calliora Status
   introTitle: "Calliora Service Status"
   introMessage: "Welcome to our status page. Here you'll find real-time updates on our services. If you are experiencing an issue, please check here first."
