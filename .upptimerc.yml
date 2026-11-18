@@ -19,13 +19,23 @@ sites: # List of endpoints to track
     type: globalping
     location: Germany+datacenter-network
     maxResponseTime: 5000
+  - name: calliora Platform
+    url: https://app.calliora.com
+    type: globalping
+    location: Germany+datacenter-network
+    maxResponseTime: 5000
+  - name: calliora Platform API
+    url: https://api.calliora.com/health
+    type: globalping
+    location: Germany+datacenter-network
+    maxResponseTime: 5000
 
 # Configuration for the generated status page website
 status-website:
   # If you want to use a custom domain like status.calliora.com
   cname: status.calliora.com
   logoUrl: https://status.calliora.com/calliora.svg
-  name: Calliora Compass Status
+  name: Calliora Status
   introTitle: "Calliora Service Status"
   introMessage: "Welcome to our status page. Here you'll find real-time updates on our services. If you are experiencing an issue, please check here first."
   theme: night
@@ -34,6 +44,8 @@ status-website:
       href: /
     - title: Compass
       href: https://compass.calliora.com
+    - title: Platform
+      href: https://app.calliora.com
     - title: Website
       href: https://www.calliora.com
     - title: Contact Support
